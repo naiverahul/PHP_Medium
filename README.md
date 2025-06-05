@@ -42,7 +42,7 @@ It provides a robust foundation for building scalable, secure, and maintainable 
 
 ```bash
 git clone https://github.com/naiverahul/PHP_Medium.git
-cd PHP_Medium
+cd laravel_project
 ```
 
 ### Step 2: Setup Environment
