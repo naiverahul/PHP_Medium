@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "laravel-project/public/index.php",
+      "use": "@vercel/php"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/build/(.*)",
+      "dest": "laravel-project/public/build/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/laravel-project/public/index.php"
+    }
+  ]
+}
